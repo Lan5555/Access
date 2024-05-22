@@ -1,0 +1,100 @@
+body {
+    background-image: url("back.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+#item {
+  margin: 0 auto; /* Center horizontally */
+  padding: 60px;
+  border-radius: 30px;
+  background-color: white;
+  width: 700px;
+  height: 1600px;
+  border-color: white;
+  color: white;
+  margin-top: 60px;
+  box-shadow: 4px 0px 10px;
+  overflow: auto;
+  display: none;
+  
+}
+#img {
+  width: 230px;
+  height: 230px;
+  margin-left: 225px;
+}
+
+
+#chase {
+  border-radius: 10px;
+  color: black;
+  height: 60px;
+  
+  
+}
+#btn {
+  border-radius:10px;
+  color:black;
+  height: 30px;
+  margin-left: 60px;
+ 
+}
+#info{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #item {
+      margin: 0 auto; /* Center horizontally */
+  padding: 60px;
+  border-radius: 30px;
+  background-color: white;
+  width: 200px;
+  height: 570px;
+  border-color: white;
+  color: white;
+  margin-top: 60px;
+  box-shadow: 4px 0px 10px;
+  overflow: auto;
+    }
+    
+    
+    #img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  
+  
+}
+
+p{
+  color: black;
+  text-align: left !important;
+  
+}
+
+
+}
+
+
+
+#item,#text,p{
+  color: black;
+  text-align: left !important;
+  
+}
